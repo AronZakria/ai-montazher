@@ -1,0 +1,4 @@
+# Python 3.10+ на Mac с Apple Silicon (mlx-whisper работает только на M1/M2/M3/M4)
+numpy
+Pillow
+mlx-whisper

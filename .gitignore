@@ -1,0 +1,36 @@
+# Секреты
+.env
+.env.*
+
+# Окружение и служебное
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+*.log
+
+# Собранные из .swift программы (tools/build.sh собирает их заново)
+tools/face
+tools/eyes
+tools/gaze
+tools/razmyt
+tools/ekran/okna
+
+# Видео и звук — в репозиторий не идут
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4v
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+
+# Рабочие папки монтажа и папки роликов (материалы пересоздаются из исходника)
+монтаж/
+**/монтаж/
+Ролики/
